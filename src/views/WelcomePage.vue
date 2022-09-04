@@ -87,7 +87,7 @@
         <a
            href="mailto:me@jonaskaninda.com"
            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 my-4 border-teal-600 text-teal-600 inline-block px-3 py-2 border-2 rounded-md text-sm font-sf font-semibold hover:bg-teal-500 hover:bg-opacity-10">
-          Say me Hello
+          Hire me
         </a>
     </div>
 
@@ -282,15 +282,15 @@
   
     {
       name: "Vmware",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"
+      src: "img/Vmware.svg.png"
     },
     {
       name: "Proxmox",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg"
+      src: "img/Proxmox-logo-860.png"
     },
     {
       name: "VirtualBox",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg"
+      src: "img/virtualbox-icon.svg"
     },
     
   ])
