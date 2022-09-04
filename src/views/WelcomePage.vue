@@ -9,8 +9,8 @@
           <p class="text-sm text-gray-700 font-sf">DevOps developer</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm a software engineer with years of professional experience in  Kotlin, Laravel, MySQL, Postgres , and Spring Boot.
-          My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, and DevOps.        
+          I'm a software engineer with years of professional experience in  Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, Docker and Kubernetes.
+          My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps and DevSecOps.        
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">DRC &boxh; Lubumbashi</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
@@ -37,55 +37,63 @@
         <BaseTitle number="02" title="Back-end"/>
         <BaseTech :languages="backLanguages" :frameworks="backFrameworks" />
       </div>
+      <div>
+        <BaseTitle number="03" title="Mobile"/>
+        <BaseTech :languages="mobiles" />
+      </div>
 
       <div>
-        <BaseTitle number="03" title="Data bases"/>
+        <BaseTitle number="04" title="Data bases"/>
         <BaseTech :languages="databases" />
       </div>
 
       <div>
-        <BaseTitle number="04" title="CMS"/>
+        <BaseTitle number="05" title="CMS"/>
         <BaseTech :languages="cms" />
       </div>
 
       <div>
-        <BaseTitle number="04" title="Gestion & collaboration"/>
+        <BaseTitle number="06" title="Version control & Collaboration "/>
         <BaseTech :languages="management" />
       </div>
 
       <div>
-        <BaseTitle number="05" title="Servers and deployments"/>
+        <BaseTitle number="07" title="Servers and deployments"/>
         <BaseTech :languages="deployments" />
       </div>
       <div>
-        <BaseTitle number="06" title="DevOps Tools"/>
+        <BaseTitle number="08" title="DevOps Tools"/>
         <BaseTech :languages="devOpsTools" />
       </div>
       <div>
-        <BaseTitle number="07" title="Monitoring"/>
+        <BaseTitle number="09" title="Monitoring"/>
         <BaseTech :languages="monitorings" />
       </div>
       <div>
-        <BaseTitle number="06" title="Virtualisation"/>
+        <BaseTitle number="10" title="Virtualisation"/>
         <BaseTech :languages="virtualisations" />
       </div>
 
       <div>
-        <BaseTitle number="06" title="Operating Systems"/>
+        <BaseTitle number="11" title="Operating Systems"/>
         <BaseTech :languages="systems" />
+      </div>
+      <div>
+        <BaseTitle number="12" title="Plus"/>
+        <BaseTech :languages="plus" />
       </div>
     </div>
 
 
 
     <div class="my-20 flex flex-col items-center justify-center">
-      <span class="font-sf font-semibold text-teal-600 text-sm">07. What is the next step ?</span>
+      <span class="font-sf font-semibold text-teal-600 text-sm">13. What is the next step ?</span>
       <div class="text-center mb-4">
         <h4 class="text-2xl font-bold mt-4 mb-2 capitalize">Contact</h4>
         <p class="text-sm font-medium text-gray-700">If you want to work with me or have any questions.</p>
       </div>
         <a
-           href="mailto:me@jonaskaninda.com"
+           href="mailto:jonaskaninda@gmail.com"
            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 my-4 border-teal-600 text-teal-600 inline-block px-3 py-2 border-2 rounded-md text-sm font-sf font-semibold hover:bg-teal-500 hover:bg-opacity-10">
           Hire me
         </a>
@@ -180,7 +188,7 @@
   const devOpsTools = reactive([
     {
       name: "Portainer",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
+      src: "img/portainer-wordmark-1.svg"
     },
     {
       name: "Jenkins",
@@ -307,10 +315,28 @@
   {
       name: "Rocky Linux",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+    }, 
+  ])
+  const plus = reactive([
+  {
+      name: "Nginx proxy manager",
+      src: "img/nginx-proxy.png"
     },
-    
-    
-    
+  {
+      name: "Treafik",
+      src: "img/Traefik.logo.png"
+    },
+  {
+      name: "NGINX Ingress",
+      src: "img/ingress.png"
+    }, 
+  ])
+  const mobiles = reactive([
+  {
+      name: "Android Kotlin",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+    }
+  
   ])
 
 </script>
