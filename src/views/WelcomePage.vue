@@ -79,15 +79,21 @@
         <BaseTech :languages="systems" />
       </div>
       <div>
-        <BaseTitle number="12" title="Plus"/>
+        <BaseTitle number="12" title="CI/CD"/>
+        <BaseTech :languages="cicd" />
+      </div>
+      <div>
+        <BaseTitle number="13" title="Events/Messaging"/>
+        <BaseTech :languages="messaging" />
+      </div>
+      <div>
+        <BaseTitle number="14" title="Plus"/>
         <BaseTech :languages="plus" />
       </div>
     </div>
 
-
-
     <div class="my-20 flex flex-col items-center justify-center">
-      <span class="font-sf font-semibold text-teal-600 text-sm">13. What is the next step ?</span>
+      <span class="font-sf font-semibold text-teal-600 text-sm">15. What is the next step ?</span>
       <div class="text-center mb-4">
         <h4 class="text-2xl font-bold mt-4 mb-2 capitalize">Contact</h4>
         <p class="text-sm font-medium text-gray-700">If you want to work with me or have any questions.</p>
@@ -157,6 +163,18 @@
     {
       name: "Bootstrap",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    },
+    {
+      name: "Alpine.js",
+      src: "img/alpine_long.svg"
+    },
+    {
+      name: "Livewire",
+      src: "img/underwater_jelly.svg"
+    },
+    {
+      name: "Inertia",
+      src: "img/inertia.svg"
     }
   ])
 
@@ -190,10 +208,7 @@
       name: "Portainer",
       src: "img/portainer-wordmark-1.svg"
     },
-    {
-      name: "Jenkins",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
-    },
+    
     {
       name: "Grafana",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
@@ -256,6 +271,10 @@
     {
       name: "Wordpress",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
+    },
+    {
+      name: "Joomla",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
     }
   ])
 
@@ -313,8 +332,8 @@
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
     },
   {
-      name: "Rocky Linux",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+      name: "macOS",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
     }, 
   ])
   const plus = reactive([
@@ -323,9 +342,10 @@
       src: "img/nginx-proxy.png"
     },
   {
-      name: "Treafik",
+      name: "Treafik/ Ingress controller",
       src: "img/Traefik.logo.png"
     },
+  
   {
       name: "NGINX Ingress",
       src: "img/ingress.png"
@@ -336,6 +356,33 @@
       name: "Android Kotlin",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
     }
+  
+  ])
+  const cicd = reactive([
+  {
+      name: "Jenkins",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+    },
+    {
+      name: "ArgoCd",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg"
+    },
+    {
+      name: "Github action",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+      name: "GitLab CI/CD",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+    },
+  
+  ])
+  const messaging = reactive([
+  {
+      name: "Apache Kafka",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+    },
+    
   
   ])
 

@@ -23,7 +23,7 @@
   <!-- Right -->
   <div class="hidden lg:flex flex-col w-8 items-center space-y-24 items-center fixed bottom-0 sm:right-4 md:right-10">
     <div class="transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 transform rotate-90">
-      <a href="mailto:me@jonaskaninda.com" class="text-sm font-sf hover:text-teal-600 p-1">me@jonaskaninda.com</a>
+      <a href="mailto:jonaskaninda@gmail.com" class="text-sm font-sf hover:text-teal-600 p-1">jonaskaninda@gmail.com</a>
     </div>
     <div class="h-20 border-l-2 border-gray-500"></div>
   </div>
