@@ -274,7 +274,7 @@
     },
     {
       name: "Joomla",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
+      src: "img/joomla-logo-png-transparent.png"
     }
   ])
 
