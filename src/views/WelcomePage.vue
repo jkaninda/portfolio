@@ -58,7 +58,7 @@
       </div>
 
       <div>
-        <BaseTitle number="07" title="Servers and deployments"/>
+        <BaseTitle number="07" title="Servers, container & container Orchestrators"/>
         <BaseTech :languages="deployments" />
       </div>
       <div>
@@ -87,13 +87,17 @@
         <BaseTech :languages="messaging" />
       </div>
       <div>
-        <BaseTitle number="14" title="Plus"/>
+        <BaseTitle number="14" title="Public cloud"/>
+        <BaseTech :languages="cloud" />
+      </div>
+      <div>
+        <BaseTitle number="15" title="Plus"/>
         <BaseTech :languages="plus" />
       </div>
     </div>
 
     <div class="my-20 flex flex-col items-center justify-center">
-      <span class="font-sf font-semibold text-teal-600 text-sm">15. What is the next step ?</span>
+      <span class="font-sf font-semibold text-teal-600 text-sm">16. What is the next step ?</span>
       <div class="text-center mb-4">
         <h4 class="text-2xl font-bold mt-4 mb-2 capitalize">Contact</h4>
         <p class="text-sm font-medium text-gray-700">If you want to work with me or have any questions.</p>
@@ -297,7 +301,7 @@
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
     {
-      name: "Swarm",
+      name: "Docker Swarm",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
     {
@@ -381,6 +385,22 @@
   {
       name: "Apache Kafka",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+    },
+    
+  
+  ])
+  const cloud = reactive([
+  {
+      name: "AWS",
+      src: "img/AWS-Logo.jpg"
+    },
+  {
+      name: "Google Cloud",
+      src: "img/Google-Cloud-Logo-1068x601.jpg"
+    },
+  {
+      name: "Digital Ocean",
+      src: "img/DigitalOcean-Logo.wine.png"
     },
     
   
