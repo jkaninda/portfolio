@@ -6,7 +6,7 @@
         <div class="mb-5">
           <span class="text-sm font-bold text-teal-600 font-sf">Hello, I am</span>
           <h1 class="text-4xl my-4 text-gray-800 font-bold">Jonas Kaninda</h1>
-          <p class="text-sm text-gray-700 font-sf">DevOps developer</p>
+          <p class="text-sm text-gray-700 font-sf">DevOps engineer</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
           I'm a software engineer with years of professional experience in  Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, Docker and Kubernetes.
