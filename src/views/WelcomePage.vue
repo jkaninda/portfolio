@@ -372,6 +372,10 @@
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg"
     },
     {
+      name: "FluxCd",
+      src: "/img/flux.jpg"
+    },
+    {
       name: "Github action",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
     },
