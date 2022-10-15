@@ -6,4 +6,4 @@ if [ $# -eq 0 ]
     tag=$1
 fi
 
-docker build -f Dockerfile -t portfolio:$tag .
+docker build -f Dockerfile -t jkaninda/portfolio:$tag .
