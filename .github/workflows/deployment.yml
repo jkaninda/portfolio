@@ -65,6 +65,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          file: ./app/Dockerfile
           push: true
           tags: "${{env.BUILDKIT_IMAGE}}:${{env.TAG_NAME}}"
