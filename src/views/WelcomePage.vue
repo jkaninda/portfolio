@@ -9,13 +9,12 @@
           <p class="text-sm text-gray-700 font-sf">Software Engineer/DevOps - available</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm a software engineer with years of professional experience in  Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, Docker and Kubernetes.
-          My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps and DevSecOps.        
+          I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps, and DevSecOps.        
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">DRC &boxh; Lubumbashi</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          Experienced Software Developer with expertise in design, installation, testing and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
+          Experienced Software Developer with expertise in design, installation, testing, continuous deployment, and maintenance of software systems. Equipped with a diverse and promising skill set. Proficient in various platforms, languages, frameworks, DevOps, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
         </div>
       </div>
       <div class="flex sm:justify-end w-full sm:px-0 mt-6 sm:mt-0 md:w-2/5 relative group">
@@ -374,6 +373,10 @@
     {
       name: "FluxCd",
       src: "/img/flux.jpg"
+    },
+    {
+      name: "Weaveworks",
+      src: "/img/Weaveworks-colour-logo-stacked.jpg"
     },
     {
       name: "Github action",
