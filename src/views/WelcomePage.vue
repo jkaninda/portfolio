@@ -9,7 +9,7 @@
           <p class="text-sm text-gray-700 font-sf">Software Engineer/DevOps - available</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps, and DevSecOps.        
+          Jonas is a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. His current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps, and DevSecOps.        
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">DRC &boxh; Lubumbashi</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
