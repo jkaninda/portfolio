@@ -9,7 +9,8 @@
           <p class="text-sm text-gray-700 font-sf">Software Engineer/DevOps - available</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          Jonas is a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. His current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps, and DevSecOps.        
+          I'm software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.
+          My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps, and DevSecOps.        
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">DRC &boxh; Lubumbashi</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
@@ -78,7 +79,7 @@
         <BaseTech :languages="systems" />
       </div>
       <div>
-        <BaseTitle number="12" title="CI/CD"/>
+        <BaseTitle number="12" title="CI/CD-GitOps"/>
         <BaseTech :languages="cicd" />
       </div>
       <div>
@@ -300,6 +301,10 @@
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
     {
+      name: "Podman",
+      src: "img/podman_510269_full.png"
+    },
+    {
       name: "Docker Swarm",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
@@ -352,6 +357,10 @@
   {
       name: "NGINX Ingress",
       src: "img/ingress.png"
+    }, 
+  {
+      name: "Istio",
+      src: "img/istio.png"
     }, 
   ])
   const mobiles = reactive([
