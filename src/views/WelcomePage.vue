@@ -6,11 +6,11 @@
         <div class="mb-5">
           <span class="text-sm font-bold text-teal-600 font-sf">Hello, I am</span>
           <h1 class="text-4xl my-4 text-gray-800 font-bold">Jonas Kaninda</h1>
-          <p class="text-sm text-gray-700 font-sf">Software Engineer/DevOps - available</p>
+          <p class="text-sm text-gray-700 font-sf">DevOps Engineer - available</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.
-          My current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Robotics, Kubernetes, DevOps, and DevSecOps.        
+          I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.
+          Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">DRC &boxh; Lubumbashi</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
@@ -89,6 +89,10 @@
       <div>
         <BaseTitle number="14" title="Public cloud"/>
         <BaseTech :languages="cloud" />
+      </div>
+      <div>
+        <BaseTitle number="15" title="IaC/SCM"/>
+        <BaseTech :languages="iac" />
       </div>
       <div>
         <BaseTitle number="15" title="Plus"/>
@@ -418,8 +422,16 @@
       name: "Digital Ocean",
       src: "img/DigitalOcean-Logo.wine.png"
     },
-    
-  
+  ])
+  const iac = reactive([
+  {
+      name: "Terraform",
+      src: "img/terraform.png"
+    },
+  {
+      name: "Ansible",
+      src: "img/Ansible_logo.svg.png"
+    },
   ])
 
 </script>
