@@ -6,13 +6,13 @@
         <div class="mb-5">
           <span class="text-sm font-bold text-teal-600 font-sf">Hello, I am</span>
           <h1 class="text-4xl my-4 text-gray-800 font-bold">Jonas Kaninda</h1>
-          <p class="text-sm text-gray-700 font-sf">DevOps Engineer - available</p>
+          <p class="text-sm text-gray-700 font-sf">DevOps Engineer | Certified Kubernetes Administrator | GitOps Certified</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
           I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.
           Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
         </div> 
-        <p class="font-sf text-sm my-3 text-gray-600">DRC &boxh; Lubumbashi</p>
+        <p class="font-sf text-sm my-3 text-gray-600">Lubumbashi &boxh; DRC</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
           Experienced Software Developer with expertise in design, installation, testing, continuous deployment, and maintenance of software systems. Equipped with a diverse and promising skill set. Proficient in various platforms, languages, frameworks, DevOps, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
@@ -91,17 +91,17 @@
         <BaseTech :languages="cloud" />
       </div>
       <div>
-        <BaseTitle number="15" title="IaC/SCM"/>
+        <BaseTitle number="15" title="IaC/CM"/>
         <BaseTech :languages="iac" />
       </div>
       <div>
-        <BaseTitle number="15" title="Plus"/>
+        <BaseTitle number="16" title="Plus"/>
         <BaseTech :languages="plus" />
       </div>
     </div>
 
     <div class="my-20 flex flex-col items-center justify-center">
-      <span class="font-sf font-semibold text-teal-600 text-sm">16. What is the next step ?</span>
+      <span class="font-sf font-semibold text-teal-600 text-sm">17. What is the next step ?</span>
       <div class="text-center mb-4">
         <h4 class="text-2xl font-bold mt-4 mb-2 capitalize">Contact</h4>
         <p class="text-sm font-medium text-gray-700">If you want to work with me or have any questions.</p>
@@ -310,7 +310,7 @@
     },
     {
       name: "Docker Swarm",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      src: "img/docker-swarm.webp"
     },
     {
       name: "Kubernetes",
