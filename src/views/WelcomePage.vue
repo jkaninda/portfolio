@@ -6,11 +6,10 @@
         <div class="mb-5">
           <span class="text-sm font-bold text-teal-600 font-sf">Hello, I am</span>
           <h1 class="text-4xl my-4 text-gray-800 font-bold">Jonas Kaninda</h1>
-          <p class="text-sm text-gray-700 font-sf">DevOps Engineer | Certified Kubernetes Administrator | GitOps Certified</p>
+          <p class="text-sm text-gray-700 font-sf">DevOps Engineer | Certified Kubernetes Administrator | GitOps Certified | Certified Istio expert | Linux System Administrator.</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.
-          Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
+          I'm a software engineer with +7 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">Lubumbashi &boxh; DRC</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
@@ -62,7 +61,7 @@
         <BaseTech :languages="deployments" />
       </div>
       <div>
-        <BaseTitle number="08" title="DevOps Tools"/>
+        <BaseTitle number="08" title="Tools"/>
         <BaseTech :languages="devOpsTools" />
       </div>
       <div>
@@ -70,7 +69,7 @@
         <BaseTech :languages="monitorings" />
       </div>
       <div>
-        <BaseTitle number="10" title="Virtualisation"/>
+        <BaseTitle number="10" title="Virtualization"/>
         <BaseTech :languages="virtualisations" />
       </div>
 
@@ -83,7 +82,7 @@
         <BaseTech :languages="cicd" />
       </div>
       <div>
-        <BaseTitle number="13" title="Events/Messaging"/>
+        <BaseTitle number="13" title="Event/Messaging"/>
         <BaseTech :languages="messaging" />
       </div>
       <div>
@@ -216,11 +215,6 @@
       name: "Portainer",
       src: "img/portainer-wordmark-1.svg"
     },
-    
-    {
-      name: "Grafana",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
-    },
     {
       name: "Teleport",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
@@ -243,6 +237,14 @@
     {
       name: "SQLlite",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+    },
+    {
+      name: "ETCD",
+      src: "img/etcd.svg"
+    },
+    {
+      name: "Redis",
+      src: "img/redis.png"
     },
   ])
 
