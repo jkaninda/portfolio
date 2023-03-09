@@ -9,7 +9,7 @@
           <p class="text-sm text-gray-700 font-sf">DevOps Engineer | Certified Kubernetes Administrator | GitOps Certified | Certified Istio expert | Linux System Administrator.</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm a software engineer with +7 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
+          I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">Lubumbashi &boxh; DRC</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
