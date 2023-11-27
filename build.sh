@@ -6,4 +6,6 @@ if [ $# -eq 0 ]
     tag=$1
 fi
 
-docker build -f Dockerfile -t jkaninda/portfolio:$tag .
+docker build -f docker/Dockerfile -t jkaninda/portfolio:$tag .
+
+docker-compose up -d --force-recreate
