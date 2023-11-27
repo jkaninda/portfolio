@@ -4,17 +4,19 @@
     <div class="flex flex-col sm:flex-row md:items-center mb-20">
       <div class="md:w-3/5">
         <div class="mb-5">
-          <span class="text-sm font-bold text-teal-600 font-sf">Hello, I am</span>
+          <span class="text-sm font-bold text-teal-600 font-sf">Hello,</span>
           <h1 class="text-4xl my-4 text-gray-800 font-bold">Jonas Kaninda</h1>
           <p class="text-sm text-gray-700 font-sf">DevOps/SR Engineer | Certified Kubernetes Administrator |Certified Cloud Engineer | GitOps Certified | Certified Istio expert | Linux System Administrator.</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          I'm a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes. Passionate about OpenSource and containerizing applications, my current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, and GitOps practices.
+          Jonas Kaninda is a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.<br>
+          Passionate about OpenSource and containerizing applications, his current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, DevSecOps, Site Reliability, and GitOps practices.
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">Greater Paris Metropolitan Region &boxh; France</p>
         <h3 class="text-3xl my-4 text-gray-800 font-bold">Summary</h3>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          Experienced Software Developer with expertise in design, installation, testing, continuous deployment, and maintenance of software systems. Equipped with a diverse and promising skill set. Proficient in various platforms, languages, frameworks, DevOps, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
+          Experienced Software Developer with expertise in design, installation, testing, continuous deployment, and maintenance of software systems. Equipped with a diverse and promising skill set. Proficient in various platforms, languages, frameworks, DevOps, and embedded systems. Experienced with cutting-edge development tools and procedures.<br>
+          Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
         </div>
       </div>
       <div class="flex sm:justify-end w-full sm:px-0 mt-6 sm:mt-0 md:w-2/5 relative group">
