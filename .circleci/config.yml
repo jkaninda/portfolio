@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Build"
-          command: "docker build -t docker/Dockerfile porfolio:latest ."
+          command: "docker build -f docker/Dockerfile -t porfolio:latest ."
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
