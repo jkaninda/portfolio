@@ -5,7 +5,8 @@ on:
     branches:
       - '**'
 env:
-  BUILDKIT_IMAGE: jkaninda/portfolio   
+  BUILDKIT_IMAGE: jkaninda/portfolio
+  TAG_NAME: ""   
 jobs:
   build:
 
@@ -20,22 +21,16 @@ jobs:
         name: Set environment for branch
         run: |
           set -x
-          if [[ $GITHUB_REF == 'refs/heads/main' ]]; then
-            echo "TAG_NAME=latest" >> "$GITHUB_ENV"
-            echo "runs-on: main branch"
-          else
-            echo "TAG_NAME=${{ github.head_ref || github.ref_name }}" >> "$GITHUB_ENV"
-            echo "runs-on: ${{ github.head_ref || github.ref_name }} branch"
-          fi
+          echo "TAG_NAME=$(date +%Y%m%d_%H%M%S)" >> "$GITHUB_ENV"
       - 
         name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v3
       - 
         name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v3
       - 
         name: Login to DockerHub
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
@@ -43,5 +38,9 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
+          file: "./docker/Dockerfile"
+          platforms: linux/amd64,linux/arm64
           push: true
-          tags: "${{env.BUILDKIT_IMAGE}}:${{env.TAG_NAME}}"
+          tags: |
+           "${{env.BUILDKIT_IMAGE}}:${{env.TAG_NAME}}"
+           "${{env.BUILDKIT_IMAGE}}:latest"

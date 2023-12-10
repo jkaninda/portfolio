@@ -108,9 +108,9 @@
         <p class="text-sm font-medium text-gray-700">If you want to work with me or have any questions.</p>
       </div>
         <a
-           href="mailto:jonaskaninda@gmail.com"
+           href="mailto:me@jonaskaninda.com"
            class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 my-4 border-teal-600 text-teal-600 inline-block px-3 py-2 border-2 rounded-md text-sm font-sf font-semibold hover:bg-teal-500 hover:bg-opacity-10">
-          Hire me
+          Contact me
         </a>
     </div>
 
