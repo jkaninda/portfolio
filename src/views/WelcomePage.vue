@@ -9,7 +9,7 @@
           <p class="text-sm text-gray-700 font-sf">DevOps/SR Engineer | Certified Kubernetes Administrator |Certified Cloud Engineer | GitOps Certified | Certified Istio expert | Linux System Administrator.</p>
         </div>
         <div class="text-sm leading-loose text-justify font-medium text-gray-700 pr-4">
-          Jonas Kaninda is a software engineer with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.<br>
+          Jonas Kaninda is a DevOps/SR Engineer and KATE Stack (Kubernetes ArgoCd Terraform External Secrets Operator) lover with +5 years of professional experience in Software development and years of experience in Kotlin, Laravel, MySQL, Postgres, Spring Boot, Linux SysAdmin, DevOps, Docker, and Kubernetes.<br>
           Passionate about OpenSource and containerizing applications, his current focus is in the areas of Microservices, API Frameworks, Cloud Native Architecture, Kubernetes, DevOps, DevSecOps, Site Reliability, and GitOps practices.
         </div> 
         <p class="font-sf text-sm my-3 text-gray-600">Greater Paris Metropolitan Region &boxh; France</p>
