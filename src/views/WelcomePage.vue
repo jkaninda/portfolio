@@ -200,6 +200,10 @@
       name: "Kotlin",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
     },
+    {
+      name: "Golang",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+    },
   ])
 
   const backFrameworks = reactive([
